@@ -1,10 +1,9 @@
 * {
   box-sizing: border-box;
 }
-body {
+
+.body{
   font-size: 14px;
-}
-.v1_2 {
   width: 100%;
   height: 2297px;
   background: rgba(255,255,255,1);
@@ -14,7 +13,9 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.v1_5 {
+.menu{
+  align-items: center;
+  text-align: center;
   width: 100%;
   height: 138px;
   background: rgba(146,191,167,1);
@@ -24,7 +25,7 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.v13_62 {
+.icone-categoria {
   width: 32px;
   height: 32px;
   background: url("../images/v13_62.png");
@@ -37,7 +38,8 @@ body {
   left: 459px;
   overflow: hidden;
 }
-.v13_57 {
+.icone-favoritos {
+  text-align: center;
   width: 26px;
   height: 28px;
   background: url("../images/v13_57.png");
@@ -50,7 +52,7 @@ body {
   left: 1004px;
   overflow: hidden;
 }
-.v1_47 {
+.categoria{
   width: 85px;
   color: rgba(73,70,70,1);
   position: absolute;
@@ -62,7 +64,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v1_10 {
+.logo {
   width: 241px;
   height: 45px;
   background: url("../images/v1_10.png");
@@ -75,7 +77,7 @@ body {
   left: 244px;
   overflow: hidden;
 }
-.v1_7 {
+.texto-logo{
   width: 241px;
   color: rgba(0,0,0,1);
   position: relative;
@@ -87,7 +89,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v1_14 {
+.barra-pesquisa {
   width: 321px;
   height: 41px;
   background: rgba(255,255,255,1);
@@ -96,7 +98,7 @@ body {
   top: 59px;
   left: 531px;
 }
-.v1_15 {
+.texto-pesquisa {
   width: 199px;
   color: rgba(148,147,147,1);
   position: absolute;
@@ -108,7 +110,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v1_46 {
+.favoritos {
   width: 74px;
   color: rgba(73,70,70,1);
   position: absolute;
@@ -120,7 +122,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v1_48 {
+.carrinho {
   width: 72px;
   color: rgba(73,70,70,1);
   position: absolute;
@@ -132,7 +134,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v1_49 {
+.login {
   width: 82px;
   color: rgba(73,70,70,1);
   position: absolute;
@@ -144,7 +146,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v1_50 {
+.sub-menu {
   width: 100%;
   height: 115px;
   background: rgba(50,88,67,1);
@@ -154,7 +156,7 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.v45_47 {
+.lista-redes {
   width: 100%;
   height: 62px;
   background: rgba(50,88,67,1);
@@ -164,7 +166,7 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.v45_54 {
+.rodape {
   width: 100%;
   height: 179px;
   background: rgba(248,249,250,1);
@@ -173,7 +175,7 @@ body {
   top: 2118px;
   left: 2px;
 }
-.v1_59 {
+.classicos {
   width: 138px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -185,7 +187,7 @@ body {
   opacity: 1;
   text-align: center;
 }
-.v1_60 {
+.livros {
   width: 138px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -197,7 +199,7 @@ body {
   opacity: 1;
   text-align: center;
 }
-.v1_62 {
+.revistas {
   width: 138px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -209,7 +211,7 @@ body {
   opacity: 1;
   text-align: center;
 }
-.v1_63 {
+.maisBuscados {
   width: 138px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -221,7 +223,7 @@ body {
   opacity: 1;
   text-align: center;
 }
-.v1_54 {
+.lancamentos {
   width: 138px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -233,7 +235,7 @@ body {
   opacity: 1;
   text-align: center;
 }
-.v5_92 {
+.card-livro1 {
   width: 219px;
   height: 337px;
   background: rgba(255,255,255,0.9100000262260437);
@@ -248,7 +250,7 @@ body {
   border-bottom-right-radius: 20px;
   overflow: hidden;
 }
-.v45_7 {
+.card-livro2 {
   width: 219px;
   height: 337px;
   background: rgba(255,255,255,0.9100000262260437);
@@ -263,7 +265,7 @@ body {
   border-bottom-right-radius: 20px;
   overflow: hidden;
 }
-.v45_17 {
+.card-livro5 {
   width: 219px;
   height: 337px;
   background: rgba(255,255,255,0.9100000262260437);
@@ -279,7 +281,7 @@ body {
   box-shadow: -1px 4px 2px rgba(0.375, 0.22187499701976776, 0.22187499701976776, 0.25);
   overflow: hidden;
 }
-.v45_21 {
+.card-livro9 {
   width: 219px;
   height: 337px;
   background: rgba(255,255,255,0.9100000262260437);
@@ -294,7 +296,7 @@ body {
   border-bottom-right-radius: 20px;
   overflow: hidden;
 }
-.v45_22 {
+.card-livro10 {
   width: 219px;
   height: 337px;
   background: rgba(255,255,255,0.9100000262260437);
@@ -309,7 +311,7 @@ body {
   border-bottom-right-radius: 20px;
   overflow: hidden;
 }
-.v45_23 {
+.card-livro11 {
   width: 219px;
   height: 337px;
   background: rgba(255,255,255,0.9100000262260437);
@@ -324,7 +326,7 @@ body {
   border-bottom-right-radius: 20px;
   overflow: hidden;
 }
-.v45_24 {
+.card-livro12 {
   width: 219px;
   height: 337px;
   background: rgba(255,255,255,0.9100000262260437);
@@ -339,7 +341,7 @@ body {
   border-bottom-right-radius: 20px;
   overflow: hidden;
 }
-.v45_18 {
+.card-livro6 {
   width: 219px;
   height: 337px;
   background: rgba(255,255,255,0.9100000262260437);
@@ -354,7 +356,7 @@ body {
   border-bottom-right-radius: 20px;
   overflow: hidden;
 }
-.v45_19 {
+.card-livro7 {
   width: 219px;
   height: 337px;
   background: rgba(255,255,255,0.9100000262260437);
@@ -369,7 +371,7 @@ body {
   border-bottom-right-radius: 20px;
   overflow: hidden;
 }
-.v45_20 {
+.card-livro8 {
   width: 219px;
   height: 337px;
   background: rgba(255,255,255,0.9100000262260437);
@@ -384,7 +386,7 @@ body {
   border-bottom-right-radius: 20px;
   overflow: hidden;
 }
-.v45_8 {
+.card-livro3{
   width: 219px;
   height: 337px;
   background: rgba(255,255,255,0.9100000262260437);
@@ -399,7 +401,7 @@ body {
   border-bottom-right-radius: 20px;
   overflow: hidden;
 }
-.v45_9 {
+.card-livro4 {
   width: 219px;
   height: 337px;
   background: rgba(255,255,255,0.9100000262260437);
@@ -414,7 +416,7 @@ body {
   border-bottom-right-radius: 20px;
   overflow: hidden;
 }
-.v45_15 {
+.desc-livro1 {
   width: 126px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -426,7 +428,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v45_63 {
+.desc-livro2 {
   width: 126px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -438,7 +440,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v45_65 {
+.desc-livro3 {
   width: 126px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -450,7 +452,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v45_64 {
+.desc-livro4{
   width: 126px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -462,7 +464,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v45_67 {
+.desc-livro5 {
   width: 126px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -474,7 +476,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v45_68 {
+.desc-livro6 {
   width: 126px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -486,7 +488,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v45_69 {
+.desc-livro7 {
   width: 126px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -498,7 +500,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v45_70 {
+.desc-livro8 {
   width: 126px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -510,7 +512,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v45_71 {
+.desc-livro9 {
   width: 126px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -522,7 +524,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v45_72 {
+.desc-livro10 {
   width: 126px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -534,7 +536,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v45_73 {
+.desc-livro11 {
   width: 126px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -546,7 +548,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v45_74 {
+.desc-livro12 {
   width: 126px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -558,7 +560,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v13_14 {
+.capa-livro6 {
   width: 170px;
   height: 216px;
   background: url("../images/v13_14.png");
@@ -571,7 +573,7 @@ body {
   left: 510px;
   overflow: hidden;
 }
-.v13_15 {
+.capa-livro7 {
   width: 170px;
   height: 216px;
   background: url("../images/v13_15.png");
@@ -584,7 +586,7 @@ body {
   left: 755px;
   overflow: hidden;
 }
-.v13_16 {
+.capa-livro8 {
   width: 170px;
   height: 216px;
   background: url("../images/v13_16.png");
@@ -597,7 +599,7 @@ body {
   left: 992px;
   overflow: hidden;
 }
-.v13_13 {
+.capa-livro1 {
   width: 170px;
   height: 216px;
   background: url("../images/v13_13.png");
@@ -610,7 +612,7 @@ body {
   left: 277px;
   overflow: hidden;
 }
-.v13_28 {
+.capa-livro10 {
   width: 170px;
   height: 216px;
   background: url("../images/v13_28.png");
@@ -627,7 +629,7 @@ body {
   border-bottom-right-radius: 20px;
   overflow: hidden;
 }
-.v13_29 {
+.capa-livro12 {
   width: 170px;
   height: 216px;
   background: url("../images/v13_29.png");
@@ -640,7 +642,7 @@ body {
   left: 993px;
   overflow: hidden;
 }
-.v5_72 {
+.capa-livro11 {
   width: 170px;
   height: 216px;
   background: url("../images/v5_72.png");
@@ -665,7 +667,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v5_74 {
+.capa-livro2 {
   width: 170px;
   height: 216px;
   background: url("../images/v5_74.png");
@@ -678,7 +680,7 @@ body {
   left: 518px;
   overflow: hidden;
 }
-.v5_75 {
+.capa-livro3 {
   width: 170px;
   height: 216px;
   background: url("../images/v5_75.png");
@@ -691,7 +693,7 @@ body {
   left: 754px;
   overflow: hidden;
 }
-.v5_76 {
+.capa-livro4 {
   width: 170px;
   height: 216px;
   background: url("../images/v5_76.png");
@@ -704,7 +706,7 @@ body {
   left: 991px;
   overflow: hidden;
 }
-.v5_82 {
+.div-emp-livro1 {
   width: 130px;
   height: 40px;
   background: rgba(51,88,68,1);
@@ -718,7 +720,7 @@ body {
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
-.v5_83 {
+.emp-livro1 {
   width: 81px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -730,7 +732,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v45_43 {
+.emp-livro3 {
   width: 81px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -742,7 +744,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v13_12 {
+.capa-livro5 {
   width: 170px;
   height: 216px;
   background: url("../images/v13_12.png");
@@ -755,7 +757,7 @@ body {
   left: 277px;
   overflow: hidden;
 }
-.v13_27 {
+.capa-livro9 {
   width: 170px;
   height: 216px;
   background: url("../images/v13_27.png");
@@ -768,55 +770,10 @@ body {
   left: 275px;
   overflow: hidden;
 }
-.v13_47 {
-  width: 216px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 2469px;
-  left: 74px;
-  font-family: Poppins;
-  font-weight: Bold;
-  font-size: 40px;
-  opacity: 1;
-  text-align: left;
-}
-.v13_52 {
-  width: 187px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 4232px;
-  left: 618px;
-  font-family: Poppins;
-  font-weight: Bold;
-  font-size: 40px;
-  opacity: 1;
-  text-align: left;
-}
-.v13_54 {
-  width: 187px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 4232px;
-  left: 836px;
-  font-family: Poppins;
-  font-weight: Bold;
-  font-size: 40px;
-  opacity: 1;
-  text-align: left;
-}
-.v13_51 {
-  width: 187px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 4232px;
-  left: 255px;
-  font-family: Poppins;
-  font-weight: Bold;
-  font-size: 40px;
-  opacity: 1;
-  text-align: left;
-}
-.v13_59 {
+
+
+
+.icone-login {
   width: 32px;
   height: 26px;
   background: url("../images/v13_59.png");
@@ -829,7 +786,7 @@ body {
   left: 900px;
   overflow: hidden;
 }
-.v13_60 {
+.icone-carrinho {
   width: 32px;
   height: 32px;
   background: url("../images/v13_60.png");
@@ -842,7 +799,7 @@ body {
   left: 1044px;
   overflow: hidden;
 }
-.v13_61 {
+.icone-pesquisar {
   width: 32px;
   height: 32px;
   background: url("../images/v13_61.png");
@@ -855,19 +812,8 @@ body {
   left: 814px;
   overflow: hidden;
 }
-.v40_23 {
-  width: 216px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 3280px;
-  left: 437px;
-  font-family: Poppins;
-  font-weight: Bold;
-  font-size: 40px;
-  opacity: 1;
-  text-align: left;
-}
-.v44_26 {
+
+.card-oassis {
   width: 145px;
   height: 145px;
   background: rgba(147,191,167,1);
@@ -876,7 +822,7 @@ body {
   top: 346px;
   left: 269px;
 }
-.v44_27 {
+.card-visaolit {
   width: 145px;
   height: 145px;
   background: rgba(51,88,68,1);
@@ -886,7 +832,7 @@ body {
   left: 423px;
   border-radius: 50%;
 }
-.v44_34 {
+.txt-oassis {
   width: 108px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -898,7 +844,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v44_28 {
+.card-galaBook{
   width: 145px;
   height: 145px;
   background: rgba(147,191,167,1);
@@ -908,7 +854,7 @@ body {
   left: 577px;
   border-radius: 50%;
 }
-.v44_37 {
+.txt-galaBook {
   width: 135px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -920,7 +866,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v44_38 {
+.txt-visaolit {
   width: 108px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -932,7 +878,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v44_29 {
+.card-luminares {
   width: 145px;
   height: 145px;
   background: rgba(51,88,68,1);
@@ -942,7 +888,7 @@ body {
   left: 731px;
   border-radius: 50%;
 }
-.v45_4 {
+.card-lume {
   width: 145px;
   height: 145px;
   background: rgba(51,88,68,1);
@@ -952,7 +898,7 @@ body {
   left: 1038px;
   border-radius: 50%;
 }
-.v44_31 {
+.card-galaxia {
   width: 145px;
   height: 145px;
   background: rgba(147,191,167,1);
@@ -962,7 +908,7 @@ body {
   left: 885px;
   border-radius: 50%;
 }
-.v45_81 {
+.txt-galaxia {
   width: 135px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -974,7 +920,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v44_33 {
+.txt-lume {
   width: 108px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -986,7 +932,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v44_39 {
+.txt-luminares {
   width: 138px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -998,7 +944,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v45_48 {
+.txt-redes {
   width: 161px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -1010,7 +956,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v56_190 {
+.barra-redes{
   width: 100%;
   height: 62px;
   background: rgba(50,88,67,1);
@@ -1020,7 +966,7 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.v56_203 {
+.desc-redes{
   width: 176px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -1032,7 +978,7 @@ body {
   opacity: 1;
   text-align: center;
 }
-.v70_327 {
+.desc-editoras {
   width: 75px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -1044,7 +990,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v70_328 {
+.desc-livros {
   width: 91px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -1056,7 +1002,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v82_149 {
+.icone-instagram {
   width: 39px;
   height: 39px;
   background: url("../images/v82_149.png");
@@ -1069,7 +1015,7 @@ body {
   left: 609px;
   overflow: hidden;
 }
-.v82_153 {
+.icone-x {
   width: 32px;
   height: 32px;
   background: url("../images/v82_153.png");
@@ -1082,7 +1028,7 @@ body {
   left: 556px;
   overflow: hidden;
 }
-.v82_155 {
+.icone-face {
   width: 43px;
   height: 35px;
   background: url("../images/v82_155.png");
@@ -1095,7 +1041,7 @@ body {
   left: 492px;
   overflow: hidden;
 }
-.v100_86 {
+.card-fav-livro1 {
   width: 44px;
   height: 40px;
   background: rgba(244,217,76,1);
@@ -1109,7 +1055,7 @@ body {
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
-.v100_87 {
+.icone-fav-livro1 {
   width: 26px;
   height: 28px;
   background: url("../images/v100_87.png");
@@ -1122,7 +1068,7 @@ body {
   left: 412px;
   overflow: hidden;
 }
-.v100_88 {
+.botao-emprestar-livro2 {
   width: 130px;
   height: 40px;
   background: rgba(51,88,68,1);
@@ -1136,7 +1082,7 @@ body {
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
-.v100_89 {
+.emprestar-livro2 {
   width: 81px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -1148,7 +1094,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v100_90 {
+.card-fav-livro2 {
   width: 44px;
   height: 40px;
   background: rgba(244,217,76,1);
@@ -1162,7 +1108,7 @@ body {
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
-.v100_96 {
+.botao-emprestar-livro3 {
   width: 130px;
   height: 40px;
   background: rgba(51,88,68,1);
@@ -1176,7 +1122,7 @@ body {
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
-.v100_97 {
+.emprestar-livro3{
   width: 81px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -1188,7 +1134,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v100_98 {
+.card-fav-livro3 {
   width: 44px;
   height: 40px;
   background: rgba(244,217,76,1);
@@ -1202,7 +1148,7 @@ body {
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
-.v100_99 {
+.botao-emprestar-livro4 {
   width: 130px;
   height: 40px;
   background: rgba(51,88,68,1);
@@ -1216,7 +1162,7 @@ body {
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
-.v100_100 {
+.emprestar-livro4 {
   width: 81px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -1228,21 +1174,21 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v100_101 {
+.card-fav-livro4 {
   width: 44px;
   height: 40px;
   background: rgba(244,217,76,1);
   opacity: 1;
   position: absolute;
   top: 857px;
-  left: 1037px;
+  left: 1119px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
-.v100_91 {
+.icone-fav-livro2 {
   width: 26px;
   height: 28px;
   background: url("../images/v100_91.png");
@@ -1255,7 +1201,7 @@ body {
   left: 661px;
   overflow: hidden;
 }
-.v100_102 {
+.icone-fav-livro4{
   width: 26px;
   height: 28px;
   background: url("../images/v100_102.png");
@@ -1265,10 +1211,10 @@ body {
   opacity: 1;
   position: absolute;
   top: 864px;
-  left: 1027px;
+  left: 1128px;
   overflow: hidden;
 }
-.v100_103 {
+.icone-fav-livro3 {
   width: 26px;
   height: 28px;
   background: url("../images/v100_103.png");
@@ -1281,7 +1227,7 @@ body {
   left: 904px;
   overflow: hidden;
 }
-.v100_92 {
+.botao-emprestar-livro5 {
   width: 130px;
   height: 40px;
   background: rgba(51,88,68,1);
@@ -1295,7 +1241,7 @@ body {
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
-.v100_93 {
+.emprestar-livro5 {
   width: 81px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -1307,7 +1253,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v100_94 {
+.card-fav-livro5 {
   width: 44px;
   height: 40px;
   background: rgba(244,217,76,1);
@@ -1321,7 +1267,7 @@ body {
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
-.v100_95 {
+.icone-fav-livro5 {
   width: 26px;
   height: 28px;
   background: url("../images/v100_95.png");
@@ -1334,7 +1280,7 @@ body {
   left: 412px;
   overflow: hidden;
 }
-.v100_116 {
+.botao-emprestar-livro9 {
   width: 130px;
   height: 40px;
   background: rgba(51,88,68,1);
@@ -1348,7 +1294,7 @@ body {
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
-.v100_117 {
+.emprestar-livro9 {
   width: 81px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -1360,7 +1306,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v100_118 {
+.card-fav-livro9{
   width: 44px;
   height: 40px;
   background: rgba(244,217,76,1);
@@ -1374,7 +1320,7 @@ body {
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
-.v100_119 {
+.icone-fav-livro9{
   width: 26px;
   height: 28px;
   background: url("../images/v100_119.png");
@@ -1387,7 +1333,7 @@ body {
   left: 418px;
   overflow: hidden;
 }
-.v100_120 {
+.botao-emprestar-livro10 {
   width: 130px;
   height: 40px;
   background: rgba(51,88,68,1);
@@ -1401,7 +1347,7 @@ body {
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
-.v100_121 {
+.emprestar-livro10 {
   width: 81px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -1413,7 +1359,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v100_122 {
+.card-fav-livro10 {
   width: 44px;
   height: 40px;
   background: rgba(244,217,76,1);
@@ -1427,7 +1373,7 @@ body {
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
-.v100_123 {
+.icone-fav-livro10 {
   width: 26px;
   height: 28px;
   background: url("../images/v100_123.png");
@@ -1440,7 +1386,7 @@ body {
   left: 655px;
   overflow: hidden;
 }
-.v100_124 {
+.botao-emprestar-livro11 {
   width: 130px;
   height: 40px;
   background: rgba(51,88,68,1);
@@ -1454,7 +1400,7 @@ body {
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
-.v100_125 {
+.emprestar-livro11 {
   width: 81px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -1466,7 +1412,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v100_126 {
+.card-fav-livro11 {
   width: 44px;
   height: 40px;
   background: rgba(244,217,76,1);
@@ -1480,7 +1426,7 @@ body {
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
-.v100_127 {
+.icone-fav-livro11 {
   width: 26px;
   height: 28px;
   background: url("../images/v100_127.png");
@@ -1493,7 +1439,7 @@ body {
   left: 900px;
   overflow: hidden;
 }
-.v100_128 {
+.botao-emprestar-livro12 {
   width: 130px;
   height: 40px;
   background: rgba(51,88,68,1);
@@ -1507,7 +1453,7 @@ body {
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
-.v100_129 {
+.emprestar-livro12 {
   width: 81px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -1519,7 +1465,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v100_130 {
+.card-fav-livro12 {
   width: 44px;
   height: 40px;
   background: rgba(244,217,76,1);
@@ -1533,7 +1479,7 @@ body {
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
-.v100_131 {
+.icone-fav-livro12 {
   width: 26px;
   height: 28px;
   background: url("../images/v100_131.png");
@@ -1546,7 +1492,7 @@ body {
   left: 1018px;
   overflow: hidden;
 }
-.v100_104 {
+.botao-emprestar-livro6 {
   width: 130px;
   height: 40px;
   background: rgba(51,88,68,1);
@@ -1560,7 +1506,7 @@ body {
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
-.v100_105 {
+.emprestar-livro6 {
   width: 81px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -1572,7 +1518,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v100_106 {
+.card-fav-livro6 {
   width: 44px;
   height: 40px;
   background: rgba(244,217,76,1);
@@ -1586,7 +1532,7 @@ body {
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
-.v100_107 {
+.icone-fav-livro6 {
   width: 26px;
   height: 28px;
   background: url("../images/v100_107.png");
@@ -1599,7 +1545,7 @@ body {
   left: 657px;
   overflow: hidden;
 }
-.v100_108 {
+.botao-emprestar-livro7 {
   width: 130px;
   height: 40px;
   background: rgba(51,88,68,1);
@@ -1613,7 +1559,7 @@ body {
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
-.v100_109 {
+.emprestar-livro7{
   width: 81px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -1625,7 +1571,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v100_110 {
+.card-fav-livro7 {
   width: 44px;
   height: 40px;
   background: rgba(244,217,76,1);
@@ -1639,7 +1585,7 @@ body {
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
-.v100_111 {
+.icone-fav-livro7 {
   width: 26px;
   height: 28px;
   background: url("../images/v100_111.png");
@@ -1652,7 +1598,7 @@ body {
   left: 898px;
   overflow: hidden;
 }
-.v100_112 {
+.botao-emprestar-livro8 {
   width: 130px;
   height: 40px;
   background: rgba(51,88,68,1);
@@ -1666,7 +1612,7 @@ body {
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
-.v100_113 {
+.emprestar-livro8 {
   width: 81px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -1678,7 +1624,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v100_114 {
+.card-fav-livro8 {
   width: 44px;
   height: 40px;
   background: rgba(244,217,76,1);
@@ -1692,7 +1638,7 @@ body {
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
-.v100_115 {
+.icone-fav-livro8 {
   width: 26px;
   height: 28px;
   background: url("../images/v100_115.png");
@@ -1705,7 +1651,7 @@ body {
   left: 1030px;
   overflow: hidden;
 }
-.v105_912 {
+.label-rodape {
   width: 640px;
   color: rgba(0,0,0,1);
   position: absolute;
